@@ -21,9 +21,7 @@ UML diagram:
 
 Үр дүн: 
 
-  ![Screenshot 2025-06-06 003031](https://github.com/user-attachments/assets/f4f3be7f-bf6b-4e84-91e4-3cb035069219)
-  ![Screenshot 2025-06-06 003041](https://github.com/user-attachments/assets/5be7b70c-366e-42da-abef-0362ae878f70)
-
+  ![alt text](image.png)
 
 
 
