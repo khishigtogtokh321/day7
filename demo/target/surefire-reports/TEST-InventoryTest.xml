@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="InventoryTest" time="0.156" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\khish\Programclalin_dadlaga\day7\demo\target\test-classes;C:\Users\khish\Programclalin_dadlaga\day7\demo\target\classes;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\khish\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\khish\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\khish\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.615\aws-java-sdk-s3-1.11.615.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.615\aws-java-sdk-kms-1.11.615.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.615\aws-java-sdk-core-1.11.615.jar;C:\Users\khish\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\khish\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\khish\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\khish\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\khish\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\khish\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\khish\.m2\repository\com\amazonaws\jmespath-java\1.11.615\jmespath-java-1.11.615.jar;C:\Users\khish\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\khish\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Ulaanbaatar"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\khish\AppData\Local\Temp\surefire10859988226307496825\surefirebooter-20250610180239075_3.jar C:\Users\khish\AppData\Local\Temp\surefire10859988226307496825 2025-06-10T18-02-38_816-jvmRun1 surefire-20250610180239075_1tmp surefire_0-20250610180239075_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\khish\Programclalin_dadlaga\day7\demo\target\test-classes;C:\Users\khish\Programclalin_dadlaga\day7\demo\target\classes;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\khish\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\khish\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\khish\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\khish\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.615\aws-java-sdk-s3-1.11.615.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.615\aws-java-sdk-kms-1.11.615.jar;C:\Users\khish\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.615\aws-java-sdk-core-1.11.615.jar;C:\Users\khish\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\khish\.m2\repository\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9.jar;C:\Users\khish\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\khish\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\khish\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\khish\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\khish\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\khish\.m2\repository\com\amazonaws\jmespath-java\1.11.615\jmespath-java-1.11.615.jar;C:\Users\khish\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\khish\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\khish"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\khish\Programclalin_dadlaga\day7\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\khish\AppData\Local\Temp\surefire10859988226307496825\surefirebooter-20250610180239075_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="Khishigtogtokh"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\khish\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\khish\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\khish\Programclalin_dadlaga\day7\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\xampp\php;C:\Users\khish\.config\herd\bin\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Pogram Files\7-Zip;C:\Program Files\Java\jdk-23\bin;C:\Users\khish\Downloads\sqlite3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\apache-maven-3.9.10\bin;C:\Users\khish\.config\herd\bin;C:\Users\khish\AppData\Local\Microsoft\WindowsApps;C:\Apps\YR2T2\Microsoft VS Code\bin;C:\Users\khish\AppData\Roaming\Composer\vendor\bin;C:\Users\khish\AppData\Roaming\npm;C:\MinGW\bin;C:\Users\khish\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\khish\AppData\Local\Coursier\data\bin;c:\Users\khish\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testAddNewProduct" classname="InventoryTest" time="0.044">
+    <system-out><![CDATA[18:02:40.705 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: P001 - Printer - 5.0
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductWithExactQuantity" classname="InventoryTest" time="0.011">
+    <system-out><![CDATA[18:02:40.726 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: H001 - Headset - 3.0
+18:02:40.730 [main] INFO  com.example.Inventory - H001 кодтой {:.1f} ширхэг 3.0 бараа нөөцөөс хасагдлаа.
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductFailsIfInsufficientStock" classname="InventoryTest" time="0.008">
+    <system-out><![CDATA[18:02:40.741 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: M001 - Monitor - 2.0
+18:02:40.743 [main] WARN  com.example.Inventory - Хангалттай тоо ширхэг байхгүй байна: шаардлагатай = 5.0, байгаа = 2.0
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductNonExistingCode" classname="InventoryTest" time="0.014">
+    <system-out><![CDATA[18:02:40.755 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: C001 - Camera - 4.0
+18:02:40.762 [main] WARN  com.example.Inventory - Бараа олдсонгүй: C999
+]]></system-out>
+  </testcase>
+  <testcase name="testAddProductWithZeroQuantity" classname="InventoryTest" time="0.01">
+    <system-out><![CDATA[18:02:40.777 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: S001 - Scanner - 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="testAddProductWithNegativeQuantity" classname="InventoryTest" time="0.011"/>
+  <testcase name="testGetProductSuccessfully" classname="InventoryTest" time="0.006">
+    <system-out><![CDATA[18:02:40.806 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: M001 - Monitor - 10.0
+18:02:40.807 [main] INFO  com.example.Inventory - M001 кодтой {:.1f} ширхэг 5.0 бараа нөөцөөс хасагдлаа.
+]]></system-out>
+  </testcase>
+  <testcase name="testAddExistingProductIncreasesQuantity" classname="InventoryTest" time="0.007">
+    <system-out><![CDATA[18:02:40.816 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: P001 - Printer - 5.0
+18:02:40.818 [main] INFO  com.example.Inventory - Бараа амжилттай нэмэгдлээ: P001 - Printer - 3.0
+]]></system-out>
+  </testcase>
+  <testcase name="testGetProductFromEmptyInventory" classname="InventoryTest" time="0.007">
+    <system-out><![CDATA[18:02:40.825 [main] WARN  com.example.Inventory - Бараа олдсонгүй: M005
+]]></system-out>
+  </testcase>
+</testsuite>
