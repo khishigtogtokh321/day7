@@ -19,7 +19,7 @@ UML diagram:
 
 ![image](https://github.com/user-attachments/assets/7bfae343-31a7-4172-b680-9aca09968526)
 
-Үр дүн: 
+Үр дүн: inventory.log 
 
   ![alt text](image.png)
 
