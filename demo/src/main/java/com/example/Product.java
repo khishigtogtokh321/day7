@@ -10,30 +10,31 @@ public class Product {
     double quantity; //Тоо ширхэг
     double price; //Барааны үнэ
 
-   public Product(String fromName, String productName, String code, double quantity, double price) {
-    if (fromName == null || fromName.trim().isEmpty()) {
-        throw new IllegalArgumentException("Нэр хоосон байж болохгүй");
-    }
-    if (productName == null || productName.trim().isEmpty()) {
-        throw new IllegalArgumentException("Барааны нэр хоосон байж болохгүй");
-    }
-    if (code == null || code.trim().isEmpty()) {
-        throw new IllegalArgumentException("Барааны код хоосон байж болохгүй");
-    }
-    if (quantity < 0) {
-        throw new IllegalArgumentException("Барааны тоо ширхэг сөрөг байж болохгүй");
-    }
-    if (price < 0) {
-        throw new IllegalArgumentException("Барааны үнэ сөрөг байж болохгүй");
-    }
+    //Product class
+    public Product(String fromName, String productName, String code, double quantity, double price) {
+        if (fromName == null || fromName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Нэр хоосон байж болохгүй");
+        }
+        if (productName == null || productName.trim().isEmpty()) {
+            throw new IllegalArgumentException("Барааны нэр хоосон байж болохгүй");
+        }
+        if (code == null || code.trim().isEmpty()) {
+            throw new IllegalArgumentException("Барааны код хоосон байж болохгүй");
+        }
+        if (quantity < 0) {
+            throw new IllegalArgumentException("Барааны тоо ширхэг сөрөг байж болохгүй");
+        }
+        if (price < 0) {
+            throw new IllegalArgumentException("Барааны үнэ сөрөг байж болохгүй");
+        }
 
-    this.fromName = fromName;
-    this.productName = productName;
-    this.code = code;
-    this.quantity = quantity;
-    this.price = price;
-    this.date = LocalDate.now();
-}
+        this.fromName = fromName;
+        this.productName = productName;
+        this.code = code;
+        this.quantity = quantity;
+        this.price = price;
+        this.date = LocalDate.now();
+    }
 
     public String getFromName() {  return fromName;}
     public LocalDate getDate() {   return date;}

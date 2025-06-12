@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"com.example","l":"HistoryRecord.ActionType"},{"p":"com.example","l":"AddProduct"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example","l":"GetProduct"},{"p":"com.example","l":"HistoryRecord"},{"p":"com.example","l":"Inventory"},{"p":"com.example","l":"Product"}];updateSearchResults();
